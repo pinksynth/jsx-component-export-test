@@ -1,4 +1,5 @@
-import { render } from "preact"
+/** @jsx h */
+import { h, render } from "preact"
 import { useState } from "preact/hooks"
 
 export function App() {
