@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../rt-svod-be"
+		},
+		{
+			"path": "../rt-svod-fe"
+		}
+	],
+	"settings": {}
+}
