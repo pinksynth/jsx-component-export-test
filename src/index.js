@@ -1,12 +1,18 @@
 import React from "react"
 
-const Profile = (username) => {
-  return (
-    <div>
-      <img src="avatar.png" className="profile" />
-      <h3>{username}</h3>
-    </div>
-  )
+class Profile extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return (
+      <div className="profile-outer">
+        <img src="avatar.png" className="profile" />
+        <h3>{this.props.username}</h3>
+      </div>
+    )
+  }
 }
 
 export default Profile
