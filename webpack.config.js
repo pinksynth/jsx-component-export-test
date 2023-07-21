@@ -18,7 +18,10 @@ export default {
         use: {
           loader: "babel-loader",
           options: {
-            presets: [["@babel/preset-env", { targets: "defaults" }]],
+            presets: [
+              "@babel/preset-react",
+              ["@babel/preset-env", { targets: "defaults" }],
+            ],
           },
         },
       },
